@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+        --verified: #ff0066;
+}
+
+* {
+        font-family: 'Nunito', sans-serif;
+}
+
+a, h1, li, div {
+        color: white !important;
+}
+
+body {
+    background-image:    url(https://u.idiosyncratic.dev/images/DMvsHF9xAU.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    text-align: center;
+    background-color:black;
+    font-family: "Arial";
+}
+
+main {
+        background-color: #212121;
+        box-shadow: 8px 8px 0px rgba(255, 255, 255, 0.06);
+        width: 15em;
+        margin: 5px;
+}
