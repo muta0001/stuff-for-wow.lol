@@ -13,19 +13,24 @@ a, h1, li, div {
 }
 
 body {
-    background-image:    url(https://u.idiosyncratic.dev/images/DMvsHF9xAU.png);
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    text-align: center;
-    background-color:black;
-    font-family: "Arial";
+        background: #333333 !important;
+        height: auto;
+        overflow: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 main {
-        background-color: #333333;
+        background-color: #212121;
         box-shadow: 8px 8px 0px rgba(255, 255, 255, 0.06);
-        width: 15em;
-        margin: 5px;
+        width: 20em;
+        margin: 10px;
+}
+
+#profile-picture {
+        border-radius: 50% !important;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 i {
@@ -34,4 +39,11 @@ i {
 
 .omg-icon svg {
         fill: #ff0066;
+}
+
+@media (max-height: 620px) {
+        body {
+                overflow: auto;
+                height: auto;
+        }
 }
